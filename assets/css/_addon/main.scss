@@ -11,7 +11,7 @@
 @import "_addon/variables";
 @import "_colors/light-typography";
 @import "_colors/dark-typography";
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"); //google hangul font
+// @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"); //google hangul font
 
 
 @mixin set-visible($light-display, $dark-display) {
@@ -61,7 +61,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
 }
 
 /*--- sidebar layout ---*/
@@ -415,7 +415,7 @@ $sidebar-display: "sidebar-display";
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;
