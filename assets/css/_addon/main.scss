@@ -41,7 +41,7 @@ html[mode=dark] {
   @include mode-toggle(true);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) { // 핸드폰에서 볼 때의 scheme일듯.
   html:not([mode]), html[mode=dark] {
     @include mode-toggle(true);
   }
@@ -51,8 +51,8 @@ html[mode=dark] {
   }
 }
 
-html, body {
-  font-size: 16px;
+html, body { // html, body에서의 font size
+  font-size: 10px;
 }
 
 body {
@@ -88,7 +88,7 @@ $sidebar-display: "sidebar-display";
     a {
       // color: var(--site-title-color);
       font-weight: 900;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       letter-spacing: .5px;
       &:hover {
         color: #fff;
