@@ -52,11 +52,11 @@ html[mode=dark] {
 }
 
 html, body { // html, body에서의 font size
-  font-size: 10px;
+  font-size: 11px;
 }
 
 body {
-  line-height: 1.75rem;
+  line-height: 1.5rem;
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
