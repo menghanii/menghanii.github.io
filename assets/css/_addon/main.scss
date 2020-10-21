@@ -52,7 +52,7 @@ html[mode=dark] {
 }
 
 html, body { // html, body에서의 font size
-  font-size: 11px;
+  font-size: 13px;
 }
 
 body {
@@ -88,7 +88,7 @@ $sidebar-display: "sidebar-display";
     a {
       // color: var(--site-title-color);
       font-weight: 900;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
         color: #fff;
@@ -180,7 +180,7 @@ $sidebar-display: "sidebar-display";
   } // ul
 
   .sidebar-bottom {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 2rem 2.5rem 1.6rem;
     a {
       margin-bottom: .5rem; // icons may have multi lines
@@ -623,21 +623,21 @@ h2 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 h3 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
 }
 
 h4 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 h5 {
@@ -811,7 +811,7 @@ table {
 }
 
 .post-content {
-  line-height: 1.8;
+  line-height: 1.5;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
