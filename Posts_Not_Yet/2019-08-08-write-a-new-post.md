@@ -53,7 +53,7 @@ Then we should have two _category_ type pages placed in folder `categories` of r
 │   └── bee.html            # a tag type page
 ...
 ```
-    
+
 and the content of a _category_ type page is
 
 ```yaml
