@@ -37,7 +37,7 @@ html:not([mode]), html[mode=light] {
   @include mode-toggle();
 }
 
-html[mode=light] {
+html[mode=light] { // light mode로 설정?
   @include mode-toggle(true);
 }
 
