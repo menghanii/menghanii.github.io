@@ -33,7 +33,7 @@
   }
 }
 
-html:not([mode]), html[mode=light] {
+html:not([mode]), html[mode=dark] {
   @include mode-toggle();
 }
 
@@ -52,7 +52,7 @@ html[mode=light] { // light mode로 설정?
 }
 
 html, body { // html, body에서의 font size
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
@@ -813,7 +813,7 @@ table {
 }
 
 .post-content {
-  line-height: 1.7;
+  line-height: 2.0;
   margin-top: 2rem;
   overflow-wrap: break-word;
   word-wrap: break-word;
