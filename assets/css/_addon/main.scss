@@ -37,7 +37,7 @@ html:not([mode]), html[mode=light] {
   @include mode-toggle();
 }
 
-html[mode=dark] {
+html[mode=light] {
   @include mode-toggle(true);
 }
 
@@ -52,11 +52,11 @@ html[mode=dark] {
 }
 
 html, body { // html, body에서의 font size
-  font-size: 16px;
+  font-size: 18px;
 }
 
 body {
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
