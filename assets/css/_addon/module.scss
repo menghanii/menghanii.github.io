@@ -19,9 +19,9 @@
   font-size: 95%;
 }
 
-%link-hover {
+%link-hover { // 포스트 링크 hover할 때 색깔
   color: #d2603a!important;
-  border-bottom: 1px solid #d2603a;
+  //border-bottom: 1px solid #d2603a;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@
   text-decoration: none;
 }
 
-@mixin sidebar-links($color: rgba(255, 255, 255, 0.5)) {
+@mixin sidebar-links($color: rgba(255, 255, 255)) { // 사이드바 링크 걸리는 놈들 색깔.
   color: $color;
   transition: color 0.35s ease-in-out;
   user-select: none;
