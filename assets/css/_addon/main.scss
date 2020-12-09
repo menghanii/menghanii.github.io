@@ -23,11 +23,11 @@
   }
 }
 
-@mixin mode-toggle($dark-mode: false) {
-  @if $dark-mode {
-    @include set-visible(inline-block, none);
+@mixin mode-toggle($dark-mode: false) { // mode-toggle이라는 스타일 그룹을 설정. 변수 설정하는 것처럼.
+  @if $dark-mode { //만약 다크모드 true 이면, dark mode로 가고
+    @include set-visible(inline-block, none); 
     @include dark-scheme;
-  } @else {
+  } @else { // dark mode false이면 light 모드로 가자.
     @include set-visible(none, inline-block);
     @include light-scheme;
   }
@@ -38,7 +38,7 @@ html:not([mode]), html[mode=dark] {
 }
 
 html[mode=light] { // light mode로 설정?
-  @include mode-toggle(true);
+  @include mode-toggle();
 }
 
 @media (prefers-color-scheme: light) { // 핸드폰에서 볼 때의 scheme일듯.
