@@ -43,7 +43,7 @@ html[mode=light] { // light mode로 설정?
 }
 
 @media (prefers-color-scheme: light) { // 핸드폰에서 볼 때의 scheme일듯.
-  html:not([mode]), html[mode=dark] {
+  html:not([mode]), html[mode=light] {
     @include mode-toggle(true);
   }
 
