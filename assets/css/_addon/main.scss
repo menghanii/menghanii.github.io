@@ -33,8 +33,9 @@
   }
 }
 
+// 이 아래가 아마 PC 버전일때의 scheme일듯.
 html:not([mode]), html[mode=dark] {
-  @include mode-toggle();
+  @include mode-toggle(true);
 }
 
 html[mode=light] { // light mode로 설정?
