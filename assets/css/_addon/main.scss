@@ -35,11 +35,11 @@
 
 // 이 아래가 아마 PC 버전일때의 scheme일듯.
 html:not([mode]), html[mode=dark] {
-  @include mode-toggle(true);
+  @include mode-toggle(false);
 }
 
 html[mode=light] { // light mode로 설정?
-  @include mode-toggle();
+  @include mode-toggle(true);
 }
 
 @media (prefers-color-scheme: light) { // 핸드폰에서 볼 때의 scheme일듯.
@@ -48,7 +48,7 @@ html[mode=light] { // light mode로 설정?
   }
 
   html[mode=light] {
-    @include mode-toggle();
+    @include mode-toggle(false);
   }
 }
 
