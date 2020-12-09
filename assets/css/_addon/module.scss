@@ -60,7 +60,7 @@
   text-decoration: none;
 }
 
-@mixin sidebar-links($color: rgba(255, 255, 255)) { // 사이드바 링크 걸리는 놈들 색깔.
+@mixin sidebar-links($color: rgba(255, 255, 255, 1)) { // 사이드바 링크 걸리는 놈들 색깔.
   color: $color;
   transition: color 0.35s ease-in-out;
   user-select: none;
