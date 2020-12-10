@@ -2,6 +2,7 @@
 title: 리눅스 스크린(screen) 기능 사용하기
 tag: [리눅스, 스크린]
 categories: [리눅스]
+comments: true
 ---
 
 ## Linux Screen 사용
