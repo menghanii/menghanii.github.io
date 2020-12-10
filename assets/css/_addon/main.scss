@@ -79,7 +79,7 @@ $sidebar-display: "sidebar-display";
   overflow-y: auto;
   width: $sidebar-width-medium;
   z-index: 99;
-  background: var(--sidebar-bg);
+  background: var(--sidebar-bg); // dark / light - typography.scss 에 있음.
   a {
     @include sidebar-links;
   }
@@ -87,7 +87,7 @@ $sidebar-display: "sidebar-display";
   .site-title {
     text-align: center;
     a {
-      color: var(--site-title-color);
+      color: black;//var(--site-title-color);
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: .5px;
