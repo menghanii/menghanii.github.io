@@ -23,7 +23,7 @@
   }
 }
 
-@mixin mode-toggle($dark-mode: true) { // mode-toggle이라는 스타일 그룹을 설정. 변수 설정하는 것처럼.
+@mixin mode-toggle($dark-mode: false) { // mode-toggle이라는 스타일 그룹을 설정. 변수 설정하는 것처럼.
   @if $dark-mode { //만약 다크모드 true 이면, dark mode로 가고
     @include set-visible(inline-block, none); 
     @include dark-scheme;
@@ -34,12 +34,12 @@
 }
 
 // 이 아래가 아마 PC 버전일때의 scheme일듯.
-html:not([mode]), html[mode=dark] {
-  @include mode-toggle(true);
+html:not([mode]), html[mode=light] {
+  @include mode-toggle();
 }
 
 html[mode=dark] { // light mode로 설정?
-  @include mode-toggle();
+  @include mode-toggle(true);
 }
 
 @media (prefers-color-scheme: dark) { // 핸드폰에서 볼 때의 scheme일듯.
@@ -47,7 +47,7 @@ html[mode=dark] { // light mode로 설정?
     @include mode-toggle(true);
   }
 
-  html[mode=dark] {
+  html[mode=light] {
     @include mode-toggle();
   }
 }
@@ -57,7 +57,7 @@ html, body { // html, body에서의 font size
 }
 
 body {
-  line-height: 1.7rem;
+  line-height: 1.8rem;
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
