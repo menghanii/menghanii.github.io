@@ -81,7 +81,7 @@ $sidebar-display: "sidebar-display";
   z-index: 99;
   background: var(--sidebar-bg); // dark / light - typography.scss 에 있음.
   a {
-    @include sidebar-links;
+    @include sidebar-links; // sidebar-links는 modules.scss에 있음. home/categories/ .. 이 부분 색깔
   }
 
   .site-title {
