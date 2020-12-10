@@ -87,7 +87,7 @@ $sidebar-display: "sidebar-display";
   .site-title {
     text-align: center;
     a {
-      color: black;//var(--site-title-color);
+      color: white;//var(--site-title-color);
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: .5px;
@@ -101,7 +101,7 @@ $sidebar-display: "sidebar-display";
   .site-subtitle {
     font-size: 95%;
     text-align: center;
-    color: black; // '쉽게 이해하자 !!' 부분 색깔
+    color: white; // '호이짜' 부분 색깔
     line-height: 1.2rem;
     word-spacing: 1px;
     margin: .5rem 1.5rem 2rem 1.5rem;
