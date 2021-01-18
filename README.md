@@ -1,5 +1,10 @@
 # Maeng Blog
 
+<!doctype html>
+<head>
+    <style>img{ display: block; margin: 0px auto;}</style>
+</head>
+
 <img src="https://user-images.githubusercontent.com/37925813/104890300-bcb59680-59b2-11eb-8d5f-044b681f1783.jpg" alt="me" width="800"/>
 
 # Welcome to Maeng Blog !
@@ -40,3 +45,5 @@
 - `Programming`
 - `Competitions`
 - `BoostCamp`
+
+</html>
