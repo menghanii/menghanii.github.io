@@ -77,7 +77,7 @@ $sidebar-display: "sidebar-display";
   left: 0;
   height: 100%;
   overflow-y: auto;
-  width: $sidebar-width-small;
+  width: $sidebar-width-small; // $ 표시는 변수를 의미함. -> variables.scss에 있음!
   z-index: 99;
   background: var(--sidebar-bg); // dark / light - typography.scss 에 있음.
   a {
@@ -88,7 +88,7 @@ $sidebar-display: "sidebar-display";
     text-align: center;
     a {
       color: white;//var(--site-title-color);
-      font-weight: 900;
+      // font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: .5px;
       &:hover {
@@ -115,7 +115,7 @@ $sidebar-display: "sidebar-display";
   .nav-link {
     border-radius: 0;
     font-size: 1rem;
-    font-weight: 600;
+    // font-weight: 600;
     letter-spacing: 1px;
   }
   .nav-item {
@@ -1425,18 +1425,18 @@ table {
       }
     }
 
-    .nav-link {
-      >span {
-        letter-spacing: 3px;
-      }
-      >i {
-        @include icon-round(1.65rem);
-        line-height: 1rem;
-        font-size: .6rem;
-        padding: .5em 0 0 .1em;
-        display: inline-block!important;
-      }
-    }
+    // .nav-link {
+    //   >span {
+    //     letter-spacing: 3px;
+    //   }
+    //   >i {
+    //     @include icon-round(1.65rem);
+    //     line-height: 1rem;
+    //     font-size: .6rem;
+    //     padding: .5em 0 0 .1em;
+    //     display: inline-block!important;
+    //   }
+    // }
 
     .sidebar-bottom {
       margin-left: 3.5rem;
@@ -1456,14 +1456,14 @@ table {
         }
       }
 
-      #mode-toggle-wrapper {
-        font-size: .9rem;
-        i {
-          @include icon-round(2rem);
-          padding-top: .44rem;
-          bottom: 0;
-        }
-      }
+      // #mode-toggle-wrapper {
+      //   font-size: .9rem;
+      //   i {
+      //     @include icon-round(2rem);
+      //     padding-top: .44rem;
+      //     bottom: 0;
+      //   }
+      // }
 
       .icon-border {
         @include ml-mr(.2rem);
