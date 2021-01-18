@@ -1349,7 +1349,7 @@ table {
   }
 
   #main-wrapper {
-    margin-left: $sidebar-width-large;
+    margin-left: $sidebar-width-small;
   }
 
   #panel-wrapper {
@@ -1357,7 +1357,7 @@ table {
   }
 
   #topbar-wrapper {
-    left: $sidebar-width-large;
+    left: $sidebar-width-small;
   }
 
   #topbar {
@@ -1480,7 +1480,7 @@ table {
   }
 
   #search-result-wrapper {
-    width: calc(100% - #{$sidebar-width-large});
+    width: calc(100% - #{$sidebar-width-small});
     >div {
       max-width: #{$main-content-max-width};
     }
@@ -1491,8 +1491,8 @@ table {
 
 @media all and (min-width: 1700px) {
   #topbar-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large}
-     - (1920px - #{$sidebar-width-large}) ) /* 100% - 350px - (1920px - 350px); */
+    padding-right: calc(100% - #{$sidebar-width-small}
+     - (1920px - #{$sidebar-width-small}) ) /* 100% - 350px - (1920px - 350px); */
   }
 
   #topbar {
@@ -1509,7 +1509,7 @@ table {
 
   footer {
     padding-left: 0;
-    padding-right: calc(100% - #{$sidebar-width-large} - 1180px);
+    padding-right: calc(100% - #{$sidebar-width-small} - 1180px);
   }
 
   #back-to-top {
@@ -1524,7 +1524,7 @@ table {
   }
 
   #search-result-wrapper {
-    padding-right: calc(100% - #{$sidebar-width-large} - 1530px);
+    padding-right: calc(100% - #{$sidebar-width-small} - 1530px);
   }
 
   #panel-wrapper {
