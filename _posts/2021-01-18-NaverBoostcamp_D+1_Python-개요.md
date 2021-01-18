@@ -1,6 +1,7 @@
 ---
 title: Naver Boostcamp Day+1 &#58; Python 개요
 comments: true
+categories: boostcamp
 tags: [부스트캠프, 프로그래밍]
 math: true
 ---
