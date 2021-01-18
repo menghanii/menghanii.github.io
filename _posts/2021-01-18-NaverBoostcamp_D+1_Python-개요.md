@@ -9,6 +9,8 @@ math: true
 
 ## Python
 
+<p align='center'><img src="https://user-images.githubusercontent.com/37925813/104911462-3c049380-59ce-11eb-890e-e3afcb51ab05.png"/></p>
+
 - `플랫폼`에 `독립적`인 `인터프리터` 언어
 
 - 플랫폼 : OS를 의미한다.
@@ -31,7 +33,7 @@ math: true
 ### 객체지향(Object-Oriented Programming, OOP)
 
 - 실행 순서가 아닌, 단위 모듈(객체) 중심으로 프로그램을 작성하는 방식.
-  - 실행 순서대로 작성하는 언어를 가리켜 프로시저 방식, 즉 **절차적 프로그래밍**이라 한다.
+  - 실행 순서대로 작성하는 언어를 가리켜 프로시저 방식, 즉 **절차적 프로그래밍(Procedure-Oriented Programming, POP)**이라 한다.
   - 객체 지향 프로그래밍에서는, 독립적인 모듈(객체)을 각각 짜고 이들을 조립하는 방식으로 프로그램이 작성된다.
 - 객체 지향 프로그래밍은 프로그램을 유연하고 변경이 용이하게 만들기 때문에 대규모 소프트웨어 개발에 많이 사용된다. (from wikipedia)
 

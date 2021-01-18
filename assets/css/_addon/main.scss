@@ -77,7 +77,7 @@ $sidebar-display: "sidebar-display";
   left: 0;
   height: 100%;
   overflow-y: auto;
-  width: $sidebar-width-medium;
+  width: $sidebar-width-small;
   z-index: 99;
   background: var(--sidebar-bg); // dark / light - typography.scss 에 있음.
   a {
@@ -1017,7 +1017,7 @@ table {
 
     #topbar-wrapper,
     #main-wrapper {
-      transform: translateX(#{$sidebar-width-medium});
+      transform: translateX(#{$sidebar-width-small});
     }
 
   }
@@ -1025,8 +1025,8 @@ table {
   #sidebar {
     @extend %slide;
 
-    transform: translateX(-#{$sidebar-width-medium}); // hide
-    -webkit-transform: translateX(-#{$sidebar-width-medium});
+    transform: translateX(-#{$sidebar-width-small}); // hide
+    -webkit-transform: translateX(-#{$sidebar-width-small});
 
     .cursor {
       -webkit-transition: none;
@@ -1138,7 +1138,7 @@ table {
   }
 
   #main-wrapper {
-    margin-left: $sidebar-width-medium;
+    margin-left: $sidebar-width-small;
   }
 
   #profile-wrapper {
