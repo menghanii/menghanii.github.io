@@ -1,6 +1,7 @@
 ---
 title: Naver BoostCamp Day+1 &#58; Peer Session
 tag: [부스트캠프, 피어세션]
+categories: [boostcamp]
 comments: true
 ---
 
