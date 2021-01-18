@@ -8,7 +8,7 @@ type: boostcamp
 # MIT License
 ---
 
-{% assign default = site.posts | where_exp: "item", "item.categories == boostcamp " %}
+{% assign default = site.posts | where_exp: "item", "item.categories == boostcamp" %}
 
 {% assign posts = "" | split: "" %}
 
