@@ -1369,13 +1369,13 @@ table {
   }
 
   #profile-wrapper {
-    margin: 4rem 2rem 3rem 4rem;
+    margin: 3rem 1rem 3rem 1rem;
     -ms-flex-direction: column!important;
 
     #avatar {
       -webkit-box-pack: normal !important;
       -ms-flex-pack: normal !important;
-      justify-content: normal !important;
+      // justify-content: normal !important;
       >a {
         width: 6.2rem;
         height: 6.2rem;
@@ -1395,7 +1395,7 @@ table {
       -ms-flex-line-pack: center!important;
       align-content: center!important;
       >div {
-        text-align: left !important;
+        text-align: center !important; // 기존: left
         width: 100%;
       }
     }

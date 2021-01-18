@@ -10,7 +10,7 @@
 
 title: Maeng Blog                     # the main title
 
-tagline: Hello, World!   # it will display as the sub-title
+tagline: 웰컴 투 맹블로그   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   데이터 사이언스 관련 모든 공부들. 이해한대로 정리하기.
