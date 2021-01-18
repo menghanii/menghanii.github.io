@@ -9,6 +9,8 @@
   name: Home
   icon: "fas fa-home"
 -
+  name: Naver Boostcamp
+-
   name: Categories
   icon: "fas fa-stream"
   path: tabs
