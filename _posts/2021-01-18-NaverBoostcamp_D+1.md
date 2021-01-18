@@ -1,5 +1,5 @@
 ---
-title: Naver Boostcamp Day+1 : Basic Computer Class for Newbies
+title: Naver Boostcamp Day+1 &#58; Basic Computer Class for Newbies
 comments: true
 tags: [부스트캠프, 프로그래밍]
 math: true
