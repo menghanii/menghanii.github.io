@@ -613,18 +613,19 @@ footer {
   -webkit-transform: translate3d(0, -5px, 0);
 }
 
-/*--- Typography ---*/
-
+/*--- Typography ---*/ 
+// 포스트 들어가면 보이는 것들
 h1 {
   @extend %heading;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h2 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: bold;
 }
 
@@ -741,6 +742,12 @@ a {
 .post {
   h1 {
     margin-top: 3rem;
+  }
+  h2 {
+    margin-top: 1.5rem;
+  }
+  h3 {
+    margin-top: 1.5rem;
   }
   em { /* MarkDown italic */
     padding-right: .2rem;
