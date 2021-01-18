@@ -10,6 +10,8 @@
   icon: "fas fa-home"
 -
   name: Naver Boostcamp
+  path: tabs
+  url: boostcamp
 -
   name: Categories
   icon: "fas fa-stream"
