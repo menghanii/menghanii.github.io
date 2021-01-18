@@ -628,6 +628,7 @@ h2 {
   font-size: 1.6rem;
   font-weight: bold;
   color: #FF8C00;
+  text-shadow: 2px 2px 2px gray;
 }
 
 h3 {
@@ -636,6 +637,8 @@ h3 {
   @extend %anchor;
   font-size: 1.3rem;
   font-weight: bold;
+  color: #FF8C00;
+  text-shadow: 2px 2px 2px gray;
 }
 
 h4 {
