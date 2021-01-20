@@ -1,5 +1,4 @@
 ---
-title: Boostcamp
 type: home
 # All the posts related to Naver BoostCamp.
 # v2.0
