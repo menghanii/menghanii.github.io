@@ -6,12 +6,25 @@
 
 
 -
+  name: "About"
+  icon: "fas fa-info"
+  path: tabs
+  url: about
+-
   name: Home
   icon: "fas fa-home"
 -
   name: Naver Boostcamp
   path: tabs
   url: boostcamp
+-
+  name: Statistics
+  path: tabs
+  url: statistics
+-
+  name: Debuggings
+  path: tabs
+  url: debuggings
 -
   name: Categories
   icon: "fas fa-stream"
@@ -27,8 +40,3 @@
 #   path: tabs
 #   url: archives
 #   icon: "fas fa-archive"
-# -
-#   name: "About"
-#   icon: "fas fa-info"
-#   path: tabs
-#   url: about
