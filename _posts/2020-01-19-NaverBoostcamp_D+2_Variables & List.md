@@ -1,8 +1,8 @@
 ---
-title: 
-categories: 
-tags: 
-comments: 
+title: Naver Boostcamp Day+2 : Variables & List
+categories: boostcamp
+tags: [부스트캠프, 프로그래밍]
+comments: true
 ---
 
 \- 이 강의정리본은 가천대학교 최성철 교수님의 강의를 정리한 것임을 밝힙니다.\-
@@ -229,11 +229,31 @@ my_list = [1, 2, 3, 4, 5, ..... , 100]
 
   - 메모리 저장 방식 : `Python`은 특이하게도 다양한 data type이 하나의 리스트에 들어갈 수 있다. 또한, 리스트 안에 리스트를 다시 입력하는 것도 가능하다.
 
-  ```
-  my_list = 
+  ```python
+  my_list = [1, 2, 3, 'abc', [1.3, 2.1]]
   ```
 
   
 
-  - 패킹과 언패킹
-  - 이차원 리스트
+  - 패킹과 언패킹 : 한 변수에 여러 개의 데이터를 넣는 것을 **패킹(packing)**이라 하고, 한 변수의 데이터를 각각의 변수로 반환하는 것을 **언패킹(unpacking)**이라 한다.
+
+  ```python
+  t = [1, 2, 3] # t라는 변수에 1, 2, 3을 list의 형식으로 packing
+  a, b, c = t # t에 있는 값 1, 2, 3을 변수 a, b, c에 각각 unpacking
+  print(t, a, b, c) # [1, 2, 3] 1 2 3
+  ```
+
+  
+
+  - 이차원 리스트 : 리스트 내에 리스트를 만들면 이차원의 리스트가 생성되는데, 이는 `행렬(Matrix)`같이 사용될 수 있다.
+
+  ```python
+  # 명한, 기봉, 나현, 경환, 연정의 국어, 수학, 영어 점수
+  kor_score = [80, 92, 95, 91, 85]
+  math_score = [75, 92, 87, 69, 90]
+  eng_score = [80, 76, 100, 96, 92]
+  class_score = [kor_score, math_score, eng_score]
+  
+  # 만약 명한의 수학 점수를 알고싶다면?
+  print(class_score[1][0]) # [1] : 수학 점수, [0]: 명한이 점수
+  ```
