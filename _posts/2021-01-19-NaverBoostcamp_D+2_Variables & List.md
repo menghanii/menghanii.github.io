@@ -1,13 +1,13 @@
 ---
-title: Naver Boostcamp Day+2 : Variables & List
-categories: boostcamp
+title: Naver Boostcamp Day+2 [1] &#58; Variables & List
+categories: [boostcamp]
 tags: [부스트캠프, 프로그래밍]
 comments: true
 ---
 
 \- 이 강의정리본은 가천대학교 최성철 교수님의 강의를 정리한 것임을 밝힙니다.\-
 
-## Variables & List
+<p align="center" style="font-size : 30px; font-weight: bold;"><U>Variables & List</U></p>
 
 ### variable & memory
 
@@ -18,12 +18,15 @@ comments: true
   ```
 
 - 위 코드를 땅! 치면 정확하게 어떤 일이 발생한걸까?
+  
   - student라는 **변수**에, 'MyungHan Yang' 이라는 **값**을 넣으라는 의미이다.
 - 그렇다면 이 student라는 변수는 어디에 저장되는 것일까?
   - `App(python)`에서 변수에 값을 할당하면, `memory`의 주소에 할당된다.
   - **폰 노이만 아키텍처** : 컴퓨터에 값을 입력 → 정보를 먼저 메모리에 저장 → CPU가 순차적으로 그 정보를 해석하고 계산하여 결과값을 전달함.
+  
+  
 
-<p align="center" width="300px"><img src="https://user-images.githubusercontent.com/37925813/105166297-a9452f80-5b5a-11eb-99f4-ddd3676727e5.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/37925813/105166297-a9452f80-5b5a-11eb-99f4-ddd3676727e5.png"></p>
 
 ```python
 # 아래와 같이 변수 세 개를 할당했을 때 어떤 일이 발생할까?
@@ -151,7 +154,7 @@ b = 7
 
 ### List
 
-<p align="center" font-size="20"> "데이터 100개가 있다면 어떻게 관리할 것인가?"</p>
+<p align="center" style="font-size:20px; font-weight:bold"> "데이터 100개가 있다면 어떻게 관리할 것인가?"</p>
 
 - 이에 대한 대답은, 100개의 변수를 일일이 만들어서 관리한다 가 아니라, **"1개의 변수를 생성하고 여기에 데이터 100개를 모두 넣어서 관리한다"**.
 - 이에 적합한 자료구조가 바로 `List`이다.
