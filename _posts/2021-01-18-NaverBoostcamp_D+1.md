@@ -10,7 +10,7 @@ math: true
 
 ### 컴퓨터 OS
 
-OS(운영체제; Operating System) : 프로그램이 동작할 수 있는 구동환경을 의미한다. 컴퓨터는 Hardware 와 Software로 이루어져 있는데, Hardware는 CPU, Memory 등 물리적인 실체가 있는 부분을 가리키고, Software는 Windows, Mac과 같은 Operating System, Chrome, Slack 등과 같은 Applications 등을 포함하는 물리적인 실체가 없는 부분이다.
+OS(운영체제; Operating System) : 프로그램이 동작할 수 있는 구동환경을 의미한다. 컴퓨터는 Hardware 와 Software로 이루어져 있는데, Hardware는 CPU, Memory 등 물리적인 실체가 있는 부분을 가리키고, Software는 Windows, Mac과 같은 Operating System, Chrome, Slack, Python 등과 같은 Applications 등을 포함하는 물리적인 실체가 없는 부분이다.
 
 파일들은 일반적으로 운영체제에 의존적이다. 예를 들어, exe 확장자를 가진 파일들은 Mac OS에서 구동되지 않고, Windows 에서만 구동된다. (그러나 후술할 Python은 운영체제 독립적이다.)
 
