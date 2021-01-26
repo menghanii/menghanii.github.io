@@ -50,7 +50,7 @@ jobs:
 
       - name: Bundle config
         run: |
-          bundle config path vendor/bundle
+          bundle config path /.bundle
 
       - name: Bundle Install
         if: steps.bundle-cache.outputs.cache-hit != 'true'
