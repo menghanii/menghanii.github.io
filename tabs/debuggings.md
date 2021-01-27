@@ -7,7 +7,7 @@ type: home
 # MIT License
 ---
 
-{% assign default = site.posts | where: "categories", "debugging" %}
+{% assign default = site.posts | where: "categories", "debuggings" %}
 
 
 <div id="post-list">
