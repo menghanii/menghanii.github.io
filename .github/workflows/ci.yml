@@ -1,8 +1,8 @@
 name: 'Continuous Integration'
 on:
   push:
-    branches:
-      - '*'
+    branches-ignore:
+      - 'production'
     tags-ignore:
       - '*'
     paths-ignore:
@@ -24,48 +24,36 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest]
 
-    steps:
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6.x'
+    env:
+      GEMS_PATH: ~/vendor/bundle
 
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # for posts's lastmod
+
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
 
       - name: Bundle Caching
-        id: bundle-cache
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          path: ${{ env.GEMS_PATH }}
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-
-      - name: Install GNU-Coreutils(for macOS)
-        if: runner.os == 'macOS'
-        run: |
-          brew install coreutils
-
-      # - name: Bundle config
-      #   run: |
-      #     bundle config path vendor/bundle
-
       - name: Bundle Install
-        if: steps.bundle-cache.outputs.cache-hit != 'true'
         run: |
-          bundle install
-
-      - name: Bundle Install locally
-        if: steps.bundle-cache.outputs.cache-hit == 'true'
-        run: |
-          bundle install --local
-
+          bundle config path ${{ env.GEMS_PATH }}
+          bundle install --jobs 4 --retry 3
       - name: Build Site
+        env:
+          JEKYLL_ENV: production
         run: |
-          bash tools/build.sh
-
+          bundle exec jekyll b
       - name: Test Site
         run: |
           bash tools/test.sh
