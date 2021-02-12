@@ -152,7 +152,7 @@ defaults:
     scope:
       path: tabs
     values:
-      layout: home # page -> home으로 바꿨음!!
+      layout: page # page -> home으로 바꿨음!!
       dynamic_title: true    # Hide title in mobile screens.
       breadcrumb:
         -
