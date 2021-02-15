@@ -16,11 +16,11 @@ Bag-Of-Words는 간단하게, 하나의 가방에다가 모든 단어들을 담�
 
 예를 들어, "John really really loves this movie."와, "Jane really likes this song."이라는 문장이 있다고 해보자. 이 두 문장에 나온 unique한 단어들만을 모아서 Bag-Of-Words를 만들면 다음과 같다.
 
-<p align='center'>{"John", "really", "loves", "this", "movie", "Jane", "likes", "song"}<p>
+<p align='center' markdown="1">{"John", "really", "loves", "this", "movie", "Jane", "likes", "song"}<p>
 
-### Step 2
+#### Step 2
 
-이제 이 단어들을 컴퓨터가 이해할 수 있도록 `numerical data`로 변환하는 과정을 거쳐보자. 이러한 변환 과정에는 간단히 `One-Hot Encoding`이 존재한다. Vocabulary 길이만큼의 차원을 갖는 벡터를 생성한 후 해당하는 단어의 dimension을 `1`로, 여타 단어를 `0`으로 mapping하는 과정이다.
+이제 이 단어들을 컴퓨터가 이해할 수 있도록 `numerical data`로 변환하는 과정을 거쳐보자. 이러한 변환 과정에는 간단한 `One-Hot Encoding`이 존재한다. Vocabulary 길이만큼의 차원을 갖는 벡터를 생성한 후 해당하는 단어의 dimension을 `1`로, 여타 단어를 `0`으로 mapping하는 과정이다.
 
 위에서 만든 Bag-Of-Words (vocabulary의 길이 8)에서 One-Hot Encoding을 수행하면 다음과 같다.
 
