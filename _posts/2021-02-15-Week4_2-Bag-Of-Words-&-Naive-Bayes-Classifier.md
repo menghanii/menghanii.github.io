@@ -16,7 +16,9 @@ Bag-Of-Words는 간단하게, 하나의 가방에다가 모든 단어들을 담�
 
 예를 들어, "John really really loves this movie."와, "Jane really likes this song."이라는 문장이 있다고 해보자. 이 두 문장에 나온 unique한 단어들만을 모아서 Bag-Of-Words를 만들면 다음과 같다.
 
-<p align='center'>{"John", "really", "loves", "this", "movie", "Jane", "likes", "song"}<p>
+
+
+<p align='center'>{"John", "really", "loves", "this", "movie", "Jane", "likes", "song"}</p>
 
 
 
