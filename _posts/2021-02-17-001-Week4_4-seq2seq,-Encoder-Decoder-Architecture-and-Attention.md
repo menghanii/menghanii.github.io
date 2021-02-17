@@ -4,7 +4,6 @@ categories: [boostcamp]
 tags: [부스트캠프, NLP]
 math: true
 comments: true
-
 ---
 
 \- 이 강의정리본은 KAIST 주재걸 교수님의 강의를 정리한 것임을 밝힙니다.\-
