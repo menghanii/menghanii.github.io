@@ -1,52 +1,7 @@
----
-# The About page
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
----
-
-# Maeng Blog<br>
-
-
-
-<p align="center"><img src="https://user-images.githubusercontent.com/37925813/104890300-bcb59680-59b2-11eb-8d5f-044b681f1783.jpg" alt="me" width="500"/></p>
-
-<p align="center" style="font-size: 20px;">Welcome to Maeng Blog !<p>
-
-
-## Who Am I ?
-
-### ①  A Student Studying `AI Engineering`, `Data Science`.
-
-### ②  **M.S.Candidate** : Digital Analytics in Yonsei University
-
-- Work in **DHLab**(Digital Healthcare Lab)
-
-<p align="center"><img src="https://user-images.githubusercontent.com/37925813/104892221-436b7300-59b5-11eb-96aa-f2a73a8657ae.png" alt="Yonsei University logo" width="300"/></p>
-
-### ③ **Naver BoostCamp - AI Tech** : Boost Camper since 2021, Naver BoostCamp - AI Engineering
-
-<p align="center"><img src="https://user-images.githubusercontent.com/37925813/104892123-259e0e00-59b5-11eb-9c38-8de4e19c8ab3.png" alt="Naver Boost Camp" width="300"/></p>
-
-
-
-## Interested In ..
-
-- AI Engineering 
-- Machine Learning
-- Deep Learning
-  - Computer Vision
-  - Natural Language Processing
-
-
-
-## Posts
-
-- `Math`
-- `Statistics`
-- `Programming`
-- `Competitions`
-- `BoostCamp`
-
-</html>
+![PortFolio_all-2](https://user-images.githubusercontent.com/37925813/109529209-d6411680-7af8-11eb-8eee-d02fe18982ee.jpg)
+![PortFolio_all-3](https://user-images.githubusercontent.com/37925813/109529211-d80ada00-7af8-11eb-830e-145a88e6f383.jpg)
+![PortFolio_all-4](https://user-images.githubusercontent.com/37925813/109529212-d8a37080-7af8-11eb-9ade-ade0a20bd11f.jpg)
+![PortFolio_all-5](https://user-images.githubusercontent.com/37925813/109529213-d93c0700-7af8-11eb-8a38-6739ce661ee1.jpg)
+![PortFolio_all-6](https://user-images.githubusercontent.com/37925813/109529218-d9d49d80-7af8-11eb-9ff5-bb6973df8c45.jpg)
+![PortFolio_all-7](https://user-images.githubusercontent.com/37925813/109529220-da6d3400-7af8-11eb-8eec-03002f8135e1.jpg)
+![PortFolio_all-8](https://user-images.githubusercontent.com/37925813/109529221-db05ca80-7af8-11eb-99c9-48319b4bf437.jpg)
