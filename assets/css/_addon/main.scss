@@ -635,10 +635,10 @@ h3 {
   @extend %heading;
   @extend %section;
   @extend %anchor;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   font-weight: bold;
   color: black;
-  text-shadow: 0.5px 0.5px 0.5px gray;
+  // text-shadow: 0.5px 0.5px 0.5px gray;
 }
 
 h4 {
@@ -811,7 +811,7 @@ table {
 }
 
 .post-meta {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   word-spacing: 1px;
   a {
     @extend %link-color;
@@ -838,7 +838,7 @@ table {
     }
   }
   p {
-    font-size: 1.08rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -1265,7 +1265,8 @@ table {
   }
 
   #panel-wrapper {
-    max-width: $panel-max-width;
+    display: none;
+    // max-width: $panel-max-width;
   }
 
   #back-to-top {
