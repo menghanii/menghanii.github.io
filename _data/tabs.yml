@@ -14,7 +14,7 @@
   name: Home
   icon: "fas fa-home"
 -
-  name: Naver Boostcamp
+  name: Boostcamp
   path: tabs
   url: boostcamp
 -
