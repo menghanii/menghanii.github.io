@@ -11,20 +11,28 @@
   path: tabs
   url: about
 -
-  name: 홈
+  name: Home
   icon: "fas fa-home"
 -
-  name: 네이버 부스트캠프
+  name: BoostCamp
   path: tabs
   url: boostcamp
 -
-  name: 통계
+  name: Statistics
   path: tabs
   url: statistics
 -
-  name: 디버깅
+  name: Debuggings
   path: tabs
   url: debuggings
+-
+  name: Algorithms
+  path: tabs
+  url: algorithms
+-
+  name: FastAPI
+  path: tabs
+  url: fastapi
 # -
   # name: Categories
   # icon: "fas fa-stream"
