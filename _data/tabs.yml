@@ -6,23 +6,23 @@
 
 
 -
-  name: "About"
+  name: About
   icon: "fas fa-info"
   path: tabs
   url: about
 -
-  name: Home
+  name: 홈
   icon: "fas fa-home"
 -
-  name: Boostcamp
+  name: 네이버 부스트캠프
   path: tabs
   url: boostcamp
 -
-  name: Statistics
+  name: 통계
   path: tabs
   url: statistics
 -
-  name: Debuggings
+  name: 디버깅
   path: tabs
   url: debuggings
 # -

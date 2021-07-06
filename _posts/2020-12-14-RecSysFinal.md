@@ -1,10 +1,11 @@
 ---
+title : 추천시스템 기말 정리
 categories: [추천시스템]
 comments: true
 
 ---
 
-## Week 9 (Surprise) → 머 나올게 있나..
+## Week 9 (Surprise)
 
 ---
 

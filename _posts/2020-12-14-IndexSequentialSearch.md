@@ -1,4 +1,5 @@
 ---
+title : 색인순차검색
 categories: [프로그래밍]
 math: true
 ---

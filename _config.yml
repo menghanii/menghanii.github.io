@@ -7,6 +7,11 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
+languages: ["en", "ko"] # 지원하고자 하는 언어
+default_lang: "ko" # 컨텐츠의 기본 언어
+exclude_from_localization: ["assets/img"] # 루트 레벨 폴더 중 다국어 기능 제외 시킬 폴더
+parallel_localizaion: false # 윈도우에서는 버그가 있어서 false로 해야 동작한다고 합니다.
+
 
 title: Maeng Blog                     # the main title
 
@@ -152,7 +157,7 @@ defaults:
     scope:
       path: tabs
     values:
-      layout: page # page -> home으로 바꿨음!!
+      layout: page
       dynamic_title: true    # Hide title in mobile screens.
       breadcrumb:
         -

@@ -13,7 +13,7 @@ panel:
 post:
   relate_posts: "Further Reading"
   button:
-    next: Newer
-    previous: Older
+    next: 다음글
+    previous: 이전글
 
-search_hint: "Search"   # text show on search bar
+search_hint: "검색"   # text show on search bar

@@ -1,4 +1,5 @@
 ---
+title : Dacon 심리성향 예측 AI 경진대회 진척사항
 comments: true
 ---
 

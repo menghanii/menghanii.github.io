@@ -1,4 +1,5 @@
 ---
+title : "이진탐색트리"
 comments: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+title : pip 문제
 comments: true
 ---
 
